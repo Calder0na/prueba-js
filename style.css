@@ -1,0 +1,89 @@
+header {
+    padding: 32px 20px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    display: grid;
+    gap: 24px;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+section {
+    background-color: rgb(249, 216, 182);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 18px;
+}
+
+section header {
+    padding: 18px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+    text-align: left
+}
+
+button {
+    background-color: rgb(0, 0, 6);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5px
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    background: #f1edf2;
+}
+
+.pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.pill {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background-color: #f1edf2;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.content {
+    padding: 18px 20px
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+.completada {
+  text-decoration: line-through;
+   color: gray;
+}
